@@ -14,7 +14,8 @@ notification, or remove the submission from your notifications without adding to
 1. Install a userscript plugin in your browser, e.g.:
    * [Violentmonkey](https://violentmonkey.github.io/)
    * [Tampermonkey](https://www.tampermonkey.net/)
-2. Open the script and confirm installation : []()
+2. Open the script and confirm installation: 
+   * [https://github.com/Nysepho/fa-notification-viewer/raw/main/fa-notification-viewer/index.user.js](index.user.js)
 
 ## Usage
 1. Navigate to your Fur Affinity new submissions page: https://www.furaffinity.net/msg/submissions/
@@ -24,13 +25,16 @@ notification, or remove the submission from your notifications without adding to
    ![Screenshot of the control panel added by the script.](./screenshots/control-panel.png)
 
 * `+ Fav, Remove and Continue`:
-  Add a submission to your favorites, remove the notification, and continue to the next submission.
-* `Remove and Continue`:  
-  Remove the submission from your notifications without adding it to your favourites.
+  * Add a submission to your favorites.
+  * Remove the notification.
+  * Continue to the next submission.
+* `Remove and Continue`:
+  * Remove the submission from your notifications.
+  * Continue to the next submission.
 * `Prev`:
-  Navigate to the previous submission.
+  * Navigate to the previous submission.
 * `Finish`:
-  Close the control panel.
+  * Close the control panel.
 * `Next`:
-  Navigate to the next submission.
-  
+  * Navigate to the next submission.
+
