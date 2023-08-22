@@ -1,7 +1,7 @@
 
 # fa-notification-viewer
 
-A userscript to make viewing your Fur Affinitity notification backlog easier.
+A userscript to make viewing your [Fur Affinity](https://www.furaffinity.net/) notification backlog easier.
 
 The script allows you to navigate through each submission in your new submission notifications, with buttons  
 to navigate between submissions, add a submission to your favourites and automatically remove the submission   
@@ -18,7 +18,8 @@ notification, or remove the submission from your notifications without adding to
    * [https://github.com/Nysepho/fa-notification-viewer/raw/main/fa-notification-viewer/index.user.js](index.user.js)
 
 ## Usage
-1. Navigate to your Fur Affinity new submissions page: https://www.furaffinity.net/msg/submissions/
+1. Navigate to your Fur Affinity new submissions page: 
+   * https://www.furaffinity.net/msg/submissions/
 2. Click the Start Viewer button:  
    ![Screenshot of the Start Viewer button added by the script.](./screenshots/start-viewer-button.png)
 3. Use the buttons on the control panel in the lower-right corner:  
