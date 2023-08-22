@@ -11,7 +11,7 @@ notification, or remove the submission from your notifications without adding to
 
 ## Installation
 
-1. Install a userscript plugin in your browser, e.g.:
+1. Install a userscript addon in your browser, e.g.:
    * [Violentmonkey](https://violentmonkey.github.io/)
    * [Tampermonkey](https://www.tampermonkey.net/)
 2. Open the script and confirm installation: 
