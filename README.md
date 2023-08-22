@@ -15,7 +15,7 @@ notification, or remove the submission from your notifications without adding to
    * [Violentmonkey](https://violentmonkey.github.io/)
    * [Tampermonkey](https://www.tampermonkey.net/)
 2. Open the script and confirm installation: 
-   * [https://github.com/Nysepho/fa-notification-viewer/raw/develop/fa-notification-viewer/index.user.js](index.user.js)
+   * [index.user.js](fa-notification-viewer/index.user.js?raw=1)
 
 ## Usage
 1. Navigate to your Fur Affinity new submissions page: 
