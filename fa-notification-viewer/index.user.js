@@ -22,18 +22,24 @@ if (window.location.pathname.startsWith('/msg/submissions')) {
 function addStartViewerButton() {
     let gallerySection = document.querySelector('.gallery-section');
     let buttonsSection = gallerySection.querySelector('div.section-body:nth-child(2) > div:nth-child(1)');
+    let submissionsAvailable = gallerySection.querySelector('.no-messages') === null;
 
     let startViewerButton = document.createElement('a');
     startViewerButton.classList.add('button', 'standard', 'a');
     startViewerButton.innerText = 'Start Viewer 🚀';
-    startViewerButton.addEventListener('click', () => {
-        let allSubmissionIds = Array
-            .from(gallerySection.getElementsByTagName('figure'))
-            .map(f => Number(f.id.replace('sid-', '')))
-            .reverse();
 
-        startViewerSession(allSubmissionIds)
-    });
+    if (submissionsAvailable) {
+        startViewerButton.addEventListener('click', () => {
+            let allSubmissionIds = Array
+                .from(gallerySection.getElementsByTagName('figure'))
+                .map(f => Number(f.id.replace('sid-', '')))
+                .reverse();
+
+            startViewerSession(allSubmissionIds);
+        });
+    } else {
+        startViewerButton.style.opacity = '0.5';
+    }
 
     buttonsSection.appendChild(startViewerButton)
 }
