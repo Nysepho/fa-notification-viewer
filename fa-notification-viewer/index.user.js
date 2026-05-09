@@ -4,7 +4,7 @@
 // @match       https://www.furaffinity.net/*
 // @run-at      document-end
 // @inject-into content
-// @version     1.1
+// @version     1.2
 // @author      Nysepho
 // @description Browse your Fur Affinity submission notifications.
 // @icon        https://www.furaffinity.net/favicon.ico
