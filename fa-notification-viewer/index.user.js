@@ -4,7 +4,7 @@
 // @match       https://www.furaffinity.net/*
 // @run-at      document-end
 // @inject-into content
-// @version     1.1
+// @version     1.2
 // @author      Nysepho
 // @description Browse your Fur Affinity submission notifications.
 // @icon        https://www.furaffinity.net/favicon.ico
@@ -66,7 +66,7 @@ function resumeViewerSession() {
     let nextSubmissionId = sessionData.submissionIds[Math.min(submissionIndex + 1, sessionData.submissionIds.length)];
     let previousSubmissionId = sessionData.submissionIds[Math.max(submissionIndex - 1, 0)];
 
-    let favoriteActionUrl = document.querySelector('.submission-sidebar > .buttons > .fav > a').href;
+    let favoriteActionUrl = document.querySelector('.submission-controls-upper > a').href;
     let isAlreadyFavorite = favoriteActionUrl.includes('/unfav/');
 
     let notificationAlreadyRemoved = sessionData.removedIds.includes(idFromUrl);
